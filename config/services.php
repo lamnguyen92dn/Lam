@@ -37,9 +37,9 @@ return [
 
     //Socialite
     'facebook' => [
-        'client_id'     => '126446734665310',
-        'client_secret' => '739119781ee76fed62643c06deeb476f',
-        'redirect'      => 'http://dothothantai.com/login/callback/facebook',
+        'client_id'     => '2177516789197150',
+        'client_secret' => '342ff6f9a85d0c091bd91be0cf1c28f2',
+        'redirect'      => 'https://test-enzi.com/human/login/callback/facebook',
     ],
 
     // https://developers.google.com/+/web/signin/
