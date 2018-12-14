@@ -36,7 +36,7 @@ class CustomerController extends Controller
         if (!empty($user)) {
 
           $item_user = Customers::where("idloginsocial",'=',$user->id)->first();
-          if(count($item_user) == 0){
+          if($item_user == null){
             $item_user = new Customers;
             $item_user->idgroup         = 1;
             $item_user->idloginsocial   = $user->id;

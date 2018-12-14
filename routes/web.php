@@ -1,6 +1,7 @@
 <?php
 
 Route::get('/',['as'=>'index','uses'=>'HomeController@index']);
+Route::get('/home',['as'=>'index','uses'=>'HomeController@index']);
 Route::get('/danh-muc/{slug}',['as'=>'list_product','uses'=>'HomeController@list_product']);
 Route::get('/san-pham/{slug}',['as'=>'product','uses'=>'HomeController@product']);
 Route::get('/loai-tin/{slug}',['as'=>'list_news','uses'=>'HomeController@list_news']);

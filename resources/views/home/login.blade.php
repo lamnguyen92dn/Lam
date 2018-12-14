@@ -52,8 +52,12 @@
                   <br>
                   <br>
                   <button type="submit" class="btn btn-orange">Login</button>
+<br>
+
                 </fieldset>
               </form>
+
+<a href="/login_social/facebook/home"><button class="btn btn-orange">Facebook</button> </a>
 				<?php $index_count = 0; $ads = 0;?>
 				@foreach($modnews as $index_mod)		
 				<!-- BEGIN .content-panel -->
